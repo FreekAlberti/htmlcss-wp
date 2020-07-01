@@ -88,15 +88,16 @@ section::after {
 
 .centro {
   float: left;
-  width: 42%;
-  margin-left: 4%;
-  margin-right: 4%;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  line-height: 30px;
 }
 
 .sinistra, .centro {
   background-color: white;
   border-radius: 10px;
-  padding: 7px;
+  padding: 10px;
 }
 
 .sinistra > h3 {
@@ -114,11 +115,26 @@ section::after {
   margin: 15px 0;
 }
 
+.centro > h3 {
+  font-size: 25px;
+  color: gray;
+  text-transform: uppercase;
+  margin: 15px 0;
+}
+
 .inferiore, .centrale, .superiore {
-  padding: 7px;
-  margin-bottom: 10px;
+  padding: 10px;
+  margin-bottom: 15px;
   background-color: white;
   border-radius: 10px;
+  line-height: 30px;
+}
+
+.destra h3 {
+  font-size: 25px;
+  color: gray;
+  text-transform: uppercase;
+  margin: 15px 0;
 }
 
 footer {
