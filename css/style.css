@@ -12,12 +12,13 @@ body {
 .wrapper {
   width: 1000px;
   margin: auto;
+  font-family: 'Lato', sans-serif;
 }
 
 header {
   height: 300px;
   width: 800px;
-  margin: 10px auto;
+  margin: 20px auto;
 }
 
 .logo {
@@ -40,15 +41,20 @@ header {
   transform: translate(-50%, -50%);
 }
 
+.nature h1 {
+  display: inline-block;
+  border: 2px solid white;
+  padding: 0 5px;
+}
+
 .menu {
   height: 40px;
   width: 100%;
-  background-color: brown;
+  background-color: darkgray;
 }
 
 section {
-  margin: 10px auto;
-  background-color: green;
+  margin: 20px auto;
 }
 
 section::after {
@@ -64,26 +70,22 @@ section::after {
 
 .centro {
   float: left;
-  width: 46%;
-  margin-left: 2%;
-  margin-right: 2%;
+  width: 42%;
+  margin-left: 4%;
+  margin-right: 4%;
 }
 
-.sinistra {
-  background-color: red;
-}
-
-.centro{
-  background-color: red;
-}
-
-.destra {
-  background-color: red;
+.sinistra, .centro {
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px;
 }
 
 .inferiore, .centrale, .superiore {
+  padding: 5px;
   margin-bottom: 10px;
-  background-color: pink;
+  background-color: white;
+  border-radius: 10px;
 }
 
 footer {
