@@ -102,22 +102,16 @@ section::after {
   padding: 10px;
 }
 
-.titolo-box1::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .titolo-box1 > h3 {
   font-size: 25px;
   color: gray;
-  float: left;
+  display: inline-block;
 }
 
 .fa-rss-square {
   color: orange;
   font-size: 25px;
-  float: left;
+  display: inline-block;
 }
 
 #ads {
