@@ -53,6 +53,24 @@ header {
   background-color: darkgray;
 }
 
+ul {
+  list-style: none;
+  text-align: center;
+  line-height: 40px;
+}
+
+li {
+  display: inline-block;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 0 5px;
+  color: white;
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
 section {
   margin: 20px auto;
 }
