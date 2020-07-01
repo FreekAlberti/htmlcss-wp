@@ -9,14 +9,63 @@
   background-repeat: repeat;
 }
 
+.wrapper {
+  width: 1000px;
+  margin: auto;
+}
+
+.titolo, .contenuto {
+  margin: 10px 0;
+}
+
 .titolo {
-  height: 100px;
-  background-color: red;
+  height: 300px;
+  width: 800px;
+  background-image: url(../img/alberi.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .contenuto {
   height: 100px;
   background-color: green;
+}
+
+.contenuto::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.sinistra, .centro, .destra {
+  float: left;
+}
+
+.sinistra, .destra {
+  width: 25%
+}
+
+.centro {
+  width: 46%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.sinistra {
+  background-color: red;
+}
+
+.centro{
+  background-color: red;
+}
+
+.destra {
+  background-color: red;
+}
+
+.inferiore, .centrale, .superiore {
+  margin-bottom: 10px;
+  background-color: pink;
 }
 
 .base {
