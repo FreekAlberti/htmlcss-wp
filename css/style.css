@@ -10,14 +10,14 @@ body {
 }
 
 .wrapper {
-  width: 1000px;
+  width: 800px;
   margin: auto;
   font-family: 'Lato', sans-serif;
 }
 
 header {
   height: 300px;
-  width: 800px;
+  width: 100%;
   margin: 20px auto;
 }
 
@@ -53,13 +53,13 @@ header {
   background-color: darkgray;
 }
 
-ul {
+#collegamenti {
   list-style: none;
   text-align: center;
   line-height: 40px;
 }
 
-li {
+#collegamenti > li {
   display: inline-block;
   font-size: 12px;
   text-transform: uppercase;
@@ -96,11 +96,26 @@ section::after {
 .sinistra, .centro {
   background-color: white;
   border-radius: 10px;
-  padding: 5px;
+  padding: 7px;
+}
+
+.sinistra > h3 {
+  font-size: 25px;
+  color: gray;
+}
+
+#ads {
+  list-style: none;
+  color: green;
+  font-size: 18px;
+}
+
+#ads > li {
+  margin: 15px 0;
 }
 
 .inferiore, .centrale, .superiore {
-  padding: 5px;
+  padding: 7px;
   margin-bottom: 10px;
   background-color: white;
   border-radius: 10px;
